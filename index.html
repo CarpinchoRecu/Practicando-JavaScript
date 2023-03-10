@@ -1,13 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JavaScript</title>
-    <script src="./codigo.js"></script>
+
+    <!--Link CSS-->
+    <link rel="stylesheet" href="./css/style.css" />
 </head>
+
 <body>
-    
+    <main>
+        <div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Total a pagar</th>
+                        <th>Porcentaje</th>
+                        <th>Total Calculado</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><input type="number" id="total"></td>
+                        <td id="porcentaje">10%</td>
+                        <td id="totalCalculado"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <button id="btnCalcular">Calcular</button>
+        </div>
+    </main>
+
+
+    <!--Link JS-->
+    <script src="./js/main.js"></script>
 </body>
+
 </html>

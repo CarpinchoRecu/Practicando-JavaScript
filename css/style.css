@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+th {
+  font-size: 35px;
+  color: rgb(255, 255, 255);
+  padding: 30px;
+}
+
+td {
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+
+input[type="number"]::-webkit-inner-spin-button, 
+input[type="number"]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input{
+    font-size: 20px;
+}
+
+#totalCalculado {
+  color: rgb(255, 0, 0);
+}
+
+div {
+  position: relative;
+  top: 20rem;
+}
+
+button {
+  position: relative;
+  top: 7rem;
+  right: 25rem;
+  font-size: 20px;
+}
